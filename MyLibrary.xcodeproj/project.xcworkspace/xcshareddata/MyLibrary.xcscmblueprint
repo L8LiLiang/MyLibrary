@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "42A9200A4FF106505D81B242B773DD6BF4E1A3C8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "42A9200A4FF106505D81B242B773DD6BF4E1A3C8" : 0,
+    "4182765C525509B305166AB949D5935FD5C85212" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "358FB899-6C8A-4803-9D94-E1D14926411E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "42A9200A4FF106505D81B242B773DD6BF4E1A3C8" : "Git\/",
+    "4182765C525509B305166AB949D5935FD5C85212" : "Git\/MyLibrary\/MyLibrary\/MBProgressHUD\/MBProgressHUD\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MyLibrary",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MyLibrary\/MyLibrary.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jdg\/MBProgressHUD.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4182765C525509B305166AB949D5935FD5C85212"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/L8LiLiang\/learn1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "42A9200A4FF106505D81B242B773DD6BF4E1A3C8"
+    }
+  ]
+}

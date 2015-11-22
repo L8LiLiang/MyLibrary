@@ -68,6 +68,15 @@
 		B957BDFF1BFA2424001E8174 /* UIView+L8FrameOptExt.m in Sources */ = {isa = PBXBuildFile; fileRef = B957BDFD1BFA2424001E8174 /* UIView+L8FrameOptExt.m */; };
 		B957BE031BFA2523001E8174 /* HitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B957BE021BFA2523001E8174 /* HitTest.m */; };
 		B957BE071BFA2712001E8174 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = B957BE061BFA2712001E8174 /* DrawView.m */; };
+		B98F1F871C022F9E0065F6F5 /* NSAttributedString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = B98F1F861C022F9E0065F6F5 /* NSAttributedString+Emoji.m */; };
+		B98F1F9A1C0230F90065F6F5 /* AutoSignInController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98F1F8B1C0230F90065F6F5 /* AutoSignInController.m */; };
+		B98F1F9B1C0230F90065F6F5 /* ElChangeTitlePositionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B98F1F8E1C0230F90065F6F5 /* ElChangeTitlePositionButton.m */; };
+		B98F1F9C1C0230F90065F6F5 /* OrderInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = B98F1F901C0230F90065F6F5 /* OrderInfoView.m */; };
+		B98F1F9D1C0230F90065F6F5 /* OrderInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B98F1F911C0230F90065F6F5 /* OrderInfoView.xib */; };
+		B98F1F9E1C0230F90065F6F5 /* OrderProcessFlowInputBoxNoView.m in Sources */ = {isa = PBXBuildFile; fileRef = B98F1F931C0230F90065F6F5 /* OrderProcessFlowInputBoxNoView.m */; };
+		B98F1F9F1C0230F90065F6F5 /* OrderProcessFlowNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B98F1F951C0230F90065F6F5 /* OrderProcessFlowNodeView.m */; };
+		B98F1FA01C0230F90065F6F5 /* OrderProcessFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = B98F1F971C0230F90065F6F5 /* OrderProcessFlowView.m */; };
+		B98F1FA11C0230F90065F6F5 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = B98F1F991C0230F90065F6F5 /* TestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -188,6 +197,23 @@
 		B957BE021BFA2523001E8174 /* HitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HitTest.m; sourceTree = "<group>"; };
 		B957BE051BFA2712001E8174 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
 		B957BE061BFA2712001E8174 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		B98F1F851C022F9E0065F6F5 /* NSAttributedString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Emoji.h"; sourceTree = "<group>"; };
+		B98F1F861C022F9E0065F6F5 /* NSAttributedString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Emoji.m"; sourceTree = "<group>"; };
+		B98F1F8A1C0230F90065F6F5 /* AutoSignInController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoSignInController.h; sourceTree = "<group>"; };
+		B98F1F8B1C0230F90065F6F5 /* AutoSignInController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoSignInController.m; sourceTree = "<group>"; };
+		B98F1F8D1C0230F90065F6F5 /* ElChangeTitlePositionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElChangeTitlePositionButton.h; sourceTree = "<group>"; };
+		B98F1F8E1C0230F90065F6F5 /* ElChangeTitlePositionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElChangeTitlePositionButton.m; sourceTree = "<group>"; };
+		B98F1F8F1C0230F90065F6F5 /* OrderInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderInfoView.h; sourceTree = "<group>"; };
+		B98F1F901C0230F90065F6F5 /* OrderInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderInfoView.m; sourceTree = "<group>"; };
+		B98F1F911C0230F90065F6F5 /* OrderInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderInfoView.xib; sourceTree = "<group>"; };
+		B98F1F921C0230F90065F6F5 /* OrderProcessFlowInputBoxNoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderProcessFlowInputBoxNoView.h; sourceTree = "<group>"; };
+		B98F1F931C0230F90065F6F5 /* OrderProcessFlowInputBoxNoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderProcessFlowInputBoxNoView.m; sourceTree = "<group>"; };
+		B98F1F941C0230F90065F6F5 /* OrderProcessFlowNodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderProcessFlowNodeView.h; sourceTree = "<group>"; };
+		B98F1F951C0230F90065F6F5 /* OrderProcessFlowNodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderProcessFlowNodeView.m; sourceTree = "<group>"; };
+		B98F1F961C0230F90065F6F5 /* OrderProcessFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderProcessFlowView.h; sourceTree = "<group>"; };
+		B98F1F971C0230F90065F6F5 /* OrderProcessFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderProcessFlowView.m; sourceTree = "<group>"; };
+		B98F1F981C0230F90065F6F5 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		B98F1F991C0230F90065F6F5 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +264,8 @@
 		B957BCF71BFA16FB001E8174 /* MyLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				B98F1F881C0230F90065F6F5 /* AutoLayout */,
+				B98F1F841C022F9E0065F6F5 /* Emoji */,
 				B957BE041BFA2712001E8174 /* CGGradient */,
 				B957BE001BFA251A001E8174 /* HitTest */,
 				B957BDEC1BFA2399001E8174 /* DatePicker */,
@@ -481,6 +509,53 @@
 			path = CGGradient;
 			sourceTree = "<group>";
 		};
+		B98F1F841C022F9E0065F6F5 /* Emoji */ = {
+			isa = PBXGroup;
+			children = (
+				B98F1F851C022F9E0065F6F5 /* NSAttributedString+Emoji.h */,
+				B98F1F861C022F9E0065F6F5 /* NSAttributedString+Emoji.m */,
+			);
+			path = Emoji;
+			sourceTree = "<group>";
+		};
+		B98F1F881C0230F90065F6F5 /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				B98F1F891C0230F90065F6F5 /* Controller */,
+				B98F1F8C1C0230F90065F6F5 /* View */,
+			);
+			path = AutoLayout;
+			sourceTree = "<group>";
+		};
+		B98F1F891C0230F90065F6F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B98F1F8A1C0230F90065F6F5 /* AutoSignInController.h */,
+				B98F1F8B1C0230F90065F6F5 /* AutoSignInController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B98F1F8C1C0230F90065F6F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B98F1F8D1C0230F90065F6F5 /* ElChangeTitlePositionButton.h */,
+				B98F1F8E1C0230F90065F6F5 /* ElChangeTitlePositionButton.m */,
+				B98F1F8F1C0230F90065F6F5 /* OrderInfoView.h */,
+				B98F1F901C0230F90065F6F5 /* OrderInfoView.m */,
+				B98F1F911C0230F90065F6F5 /* OrderInfoView.xib */,
+				B98F1F921C0230F90065F6F5 /* OrderProcessFlowInputBoxNoView.h */,
+				B98F1F931C0230F90065F6F5 /* OrderProcessFlowInputBoxNoView.m */,
+				B98F1F941C0230F90065F6F5 /* OrderProcessFlowNodeView.h */,
+				B98F1F951C0230F90065F6F5 /* OrderProcessFlowNodeView.m */,
+				B98F1F961C0230F90065F6F5 /* OrderProcessFlowView.h */,
+				B98F1F971C0230F90065F6F5 /* OrderProcessFlowView.m */,
+				B98F1F981C0230F90065F6F5 /* TestView.h */,
+				B98F1F991C0230F90065F6F5 /* TestView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -600,6 +675,7 @@
 				B957BDDD1BFA229D001E8174 /* faguo.gif in Resources */,
 				B957BDF81BFA2399001E8174 /* provinces.plist in Resources */,
 				B957BD881BFA20AB001E8174 /* .travis.yml in Resources */,
+				B98F1F9D1C0230F90065F6F5 /* OrderInfoView.xib in Resources */,
 				B957BDE21BFA229D001E8174 /* ruishi.gif in Resources */,
 				B957BDEA1BFA229D001E8174 /* L8FlagView.xib in Resources */,
 				B957BDE01BFA229D001E8174 /* putaoya.gif in Resources */,
@@ -634,6 +710,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B98F1F9A1C0230F90065F6F5 /* AutoSignInController.m in Sources */,
 				B957BD5D1BFA1CA9001E8174 /* L8Dog.m in Sources */,
 				B957BDEB1BFA229D001E8174 /* ViewController.m in Sources */,
 				B957BDC01BFA2286001E8174 /* ViewController.m in Sources */,
@@ -644,6 +721,7 @@
 				B957BDE91BFA229D001E8174 /* L8FlagView.m in Sources */,
 				B957BD541BFA1BE5001E8174 /* JSViewController.m in Sources */,
 				B957BD761BFA1F4F001E8174 /* L8NewLabel.m in Sources */,
+				B98F1F9F1C0230F90065F6F5 /* OrderProcessFlowNodeView.m in Sources */,
 				B957BDF91BFA2399001E8174 /* ViewController.m in Sources */,
 				B957BD4D1BFA1AA6001E8174 /* SSKeychainQuery.m in Sources */,
 				B957BD4B1BFA1AA6001E8174 /* NSString+Hash.m in Sources */,
@@ -654,10 +732,13 @@
 				B957BD7B1BFA1F68001E8174 /* SandBox.m in Sources */,
 				B957BD741BFA1F4F001E8174 /* Base64.m in Sources */,
 				B957BD641BFA1E72001E8174 /* L8CollectionViewCell.m in Sources */,
+				B98F1F9E1C0230F90065F6F5 /* OrderProcessFlowInputBoxNoView.m in Sources */,
+				B98F1F9C1C0230F90065F6F5 /* OrderInfoView.m in Sources */,
 				B957BCFD1BFA16FB001E8174 /* AppDelegate.m in Sources */,
 				B957BCFA1BFA16FB001E8174 /* main.m in Sources */,
 				B957BE031BFA2523001E8174 /* HitTest.m in Sources */,
 				B957BDFF1BFA2424001E8174 /* UIView+L8FrameOptExt.m in Sources */,
+				B98F1FA11C0230F90065F6F5 /* TestView.m in Sources */,
 				B957BD651BFA1E72001E8174 /* L8DataController.m in Sources */,
 				B957BD751BFA1F4F001E8174 /* Challenge.m in Sources */,
 				B957BE071BFA2712001E8174 /* DrawView.m in Sources */,
@@ -667,8 +748,11 @@
 				B957BD8C1BFA20AB001E8174 /* MBViewController.m in Sources */,
 				B957BD5C1BFA1CA9001E8174 /* KVOViewController.m in Sources */,
 				B957BD771BFA1F4F001E8174 /* NSArray+log.m in Sources */,
+				B98F1F871C022F9E0065F6F5 /* NSAttributedString+Emoji.m in Sources */,
+				B98F1F9B1C0230F90065F6F5 /* ElChangeTitlePositionButton.m in Sources */,
 				B957BD891BFA20AB001E8174 /* MBProgressHUD+CZ.m in Sources */,
 				B957BD681BFA1EFD001E8174 /* predicate.m in Sources */,
+				B98F1FA01C0230F90065F6F5 /* OrderProcessFlowView.m in Sources */,
 				B957BDFE1BFA2424001E8174 /* UIImage+L8Ext.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -876,6 +960,7 @@
 				B957BD241BFA16FB001E8174 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B957BD251BFA16FB001E8174 /* Build configuration list for PBXNativeTarget "MyLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -884,6 +969,7 @@
 				B957BD271BFA16FB001E8174 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B957BD281BFA16FB001E8174 /* Build configuration list for PBXNativeTarget "MyLibraryUITests" */ = {
 			isa = XCConfigurationList;
@@ -892,6 +978,7 @@
 				B957BD2A1BFA16FB001E8174 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

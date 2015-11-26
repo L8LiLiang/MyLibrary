@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		21C4D54C1C06925E0054DEAF /* CXTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C4D54B1C06925E0054DEAF /* CXTimer.m */; };
+		21EAF8771C072CAB00F06206 /* record in Resources */ = {isa = PBXBuildFile; fileRef = 21EAF8761C072CAB00F06206 /* record */; };
 		B957BCFA1BFA16FB001E8174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B957BCF91BFA16FB001E8174 /* main.m */; };
 		B957BCFD1BFA16FB001E8174 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B957BCFC1BFA16FB001E8174 /* AppDelegate.m */; };
 		B957BD131BFA16FB001E8174 /* MyLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B957BD121BFA16FB001E8174 /* MyLibraryTests.m */; };
@@ -100,6 +101,7 @@
 /* Begin PBXFileReference section */
 		21C4D54A1C06925E0054DEAF /* CXTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXTimer.h; sourceTree = "<group>"; };
 		21C4D54B1C06925E0054DEAF /* CXTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTimer.m; sourceTree = "<group>"; };
+		21EAF8761C072CAB00F06206 /* record */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = record; sourceTree = "<group>"; };
 		B957BCF51BFA16FB001E8174 /* MyLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B957BCF91BFA16FB001E8174 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B957BCFB1BFA16FB001E8174 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -284,6 +286,7 @@
 				B957BCFB1BFA16FB001E8174 /* AppDelegate.h */,
 				B957BCFC1BFA16FB001E8174 /* AppDelegate.m */,
 				B957BCF81BFA16FB001E8174 /* Supporting Files */,
+				21EAF8761C072CAB00F06206 /* record */,
 			);
 			path = MyLibrary;
 			sourceTree = "<group>";
@@ -687,6 +690,7 @@
 				B957BDBF1BFA2286001E8174 /* provinces.plist in Resources */,
 				B957BD8A1BFA20AB001E8174 /* MBProgressHUD.bundle in Resources */,
 				B957BD871BFA20AB001E8174 /* .gitignore in Resources */,
+				21EAF8771C072CAB00F06206 /* record in Resources */,
 				B957BDE41BFA229D001E8174 /* xiby.gif in Resources */,
 				B957BDF61BFA2399001E8174 /* AccesseryView.xib in Resources */,
 				B957BDDC1BFA229D001E8174 /* deguo.gif in Resources */,

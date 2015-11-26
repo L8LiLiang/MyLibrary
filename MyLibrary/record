@@ -1,0 +1,37 @@
+/*
+UILabel UIButton 有intrinsicContentSize，自动布局的相关约束可以省略，否则必须指定约束，否则会导致约束不完整。
+自定义View，如果在为他添加约束时，他的宽或者高不能确定（不能指定宽或者高的约束），那么就需要在intrinsicContentSize方法中指定view的本质大小，这样的话，自动布局系统就会使用该View的本质大小进行布局。但是有一点要注意，调用intrinsicContentSize时，并不能确定View自身的frame。
+
+layoutSubViews之前，会调用updateConstraint，这是一个修改约束的好时机。（但是屏幕旋转时不会掉用，有问题）
+
+可以在layoutSubViews方法中，修改子view的约束（比如高度约束），然后在调用一次[super layoutSubviews]
+
+这个例子的实现思路：
+
+父view使用约束对子view进行布局，其中，只有nodeView的高度约束不能确定，目前是通过在layoutSubviews方法中，通过nodeView的estimatedHeightWithWidth方法获得nodeView的高度，然后修改高度约束，然后再调用一次［super layoutSubviews］方法做一次布局。
+
+只有父View的layoutSubviews方法退出之后，才会递归调用子view的layoutSubviews方法。
+
+nodeViw也是完全使用约束进行布局的，虽然因为他包含多个label，并且label的文字是动态的，导致label的高度是动态的，进而导致nodeView自身的高度是动态的。但是我们可以另开一个方法，在确定nodeView自身width的情况下，计算出nodeView的合适高度。
+
+Masonry的lessOrEqualThen方法起到了关键作用，使用它做到了｀左边界估定，右边界动态调整，并且最大不能超过某个值｀的效果。
+
+ScrollView中的subView使用自动布局时，只要他们的width和height不依赖于scrollView，那么scrollView就可以自动设置contentSize，布局就会一起正常。你可以像本例一样分别为每个subView确定宽高，也可以在scrollView添加一个contentView，把subViews添加到contentView中，然后根据contentView确定contentSize(contentView自身可以确定自身size)。
+
+*/
+
+
+
+
+
+/*
+TableViewCell自动布局
+
+当cell中控件较多，并且包含动态高度的label时，需要精细的为所有子view指定垂直约束。
+并且需要调整一些约束的优先级和控件放大缩小优先级。
+我实现的tcb中，所有控件的垂直方向布局都是基于哪些动态行高的label为基准实现的（不确定是否有关）。
+但是可以确定的是，当控制台打印布局警告时，肯定是约束优先级没有设置。
+
+
+
+*/

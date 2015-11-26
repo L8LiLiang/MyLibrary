@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21C4D54C1C06925E0054DEAF /* CXTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C4D54B1C06925E0054DEAF /* CXTimer.m */; };
 		B957BCFA1BFA16FB001E8174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B957BCF91BFA16FB001E8174 /* main.m */; };
 		B957BCFD1BFA16FB001E8174 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B957BCFC1BFA16FB001E8174 /* AppDelegate.m */; };
 		B957BD131BFA16FB001E8174 /* MyLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B957BD121BFA16FB001E8174 /* MyLibraryTests.m */; };
@@ -97,6 +98,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21C4D54A1C06925E0054DEAF /* CXTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXTimer.h; sourceTree = "<group>"; };
+		21C4D54B1C06925E0054DEAF /* CXTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTimer.m; sourceTree = "<group>"; };
 		B957BCF51BFA16FB001E8174 /* MyLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B957BCF91BFA16FB001E8174 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B957BCFB1BFA16FB001E8174 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -383,6 +386,8 @@
 		B957BD691BFA1F4F001E8174 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				21C4D54A1C06925E0054DEAF /* CXTimer.h */,
+				21C4D54B1C06925E0054DEAF /* CXTimer.m */,
 				B957BDFA1BFA2424001E8174 /* UIImage+L8Ext.h */,
 				B957BDFB1BFA2424001E8174 /* UIImage+L8Ext.m */,
 				B957BDFC1BFA2424001E8174 /* UIView+L8FrameOptExt.h */,
@@ -733,6 +738,7 @@
 				B957BD741BFA1F4F001E8174 /* Base64.m in Sources */,
 				B957BD641BFA1E72001E8174 /* L8CollectionViewCell.m in Sources */,
 				B98F1F9E1C0230F90065F6F5 /* OrderProcessFlowInputBoxNoView.m in Sources */,
+				21C4D54C1C06925E0054DEAF /* CXTimer.m in Sources */,
 				B98F1F9C1C0230F90065F6F5 /* OrderInfoView.m in Sources */,
 				B957BCFD1BFA16FB001E8174 /* AppDelegate.m in Sources */,
 				B957BCFA1BFA16FB001E8174 /* main.m in Sources */,

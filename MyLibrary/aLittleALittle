@@ -1,0 +1,24 @@
+        SignIn *s1 = [[SignIn alloc] initWithDict:@{@"dispCode":@"dd",
+                                                    @"nodeCode":@"nn",
+                                                    @"lng":@(1),
+                                                    @"lat":@(2),
+                                                    @"signTime":@"ss",
+                                                    @"regionId":@"rre"}];
+        SignIn *s2 = [[SignIn alloc] initWithDict:@{@"dispCode":@"dd",
+                                                    @"nodeCode":@"nn",
+                                                    @"lng":@(1),
+                                                    @"lat":@(2),
+                                                    @"signTime":@"ss",
+                                                    @"regionId":@"rr"}];
+        
+        // s3(内容是0x1234，地址是0x8888)---> SigninObject(地址是0x1234)
+        SignIn *s3 = s1;
+        NSLog(@"%p %p",s1,s3);//%p 打印指针所指向的对象的地址 0x1234
+        // == 不调用isEqual
+        if (s1 == s3) {//==判断所指向对象地址 0x1234
+            NSLog(@"==");
+        }
+        // containObject调用isEqual,removeObject时，不用判断是否containObject，isEqual默认等同于＝＝判断对象地址，可以自定义isEqual
+        if ([s1 isEqual:s3]) {
+            NSLog(@"isEqual");
+        }

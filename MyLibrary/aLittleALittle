@@ -26,3 +26,13 @@
 
 //find ./ -name '*.m' -print0 | xargs -0 genstrings -o zh-Hans.lproj
 //shipxy_app@126.com ELane2015,xy
+
+//内购帖子
+https://developer.apple.com/in-app-purchase/In-App-Purchase-Guidelines.pdf
+http://cdn.cocimg.com/bbs/attachment/Fid_6/6_47876_5b8c08448aa7ceb.pdf
+http://www.cocoachina.com/bbs/read.php?tid-24738-page-1.html
+http://blog.csdn.net/shenjie12345678/article/details/40978977
+http://www.cnblogs.com/andyque/archive/2012/01/15/2190193.html
+https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/StoreKitGuide/Introduction.html#//apple_ref/doc/uid/TP40008267-CH1-SW1
+http://www.cocoachina.com/bbs/read.php?tid-69165-keyword-iap.html
+http://www.himigame.com/iphone-cocos2d/550.html
